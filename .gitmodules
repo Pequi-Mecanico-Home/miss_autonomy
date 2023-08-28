@@ -13,3 +13,6 @@
 [submodule "miss_worlds"]
 	path = miss_worlds
 	url = git@github.com:Pequi-Mecanico-Home/miss_worlds.git
+[submodule "miss_slam"]
+	path = miss_slam
+	url = git@github.com:Pequi-Mecanico-Home/miss_slam.git
