@@ -1,6 +1,3 @@
-[submodule "miss_simulation"]
-	path = miss_simulation
-	url = git@github.com:Pequi-Mecanico-Home/miss_simulation.git
 [submodule "miss_ekf"]
 	path = miss_ekf
 	url = git@github.com:Pequi-Mecanico-Home/miss_ekf.git
@@ -10,6 +7,3 @@
 [submodule "miss_navigation"]
 	path = miss_navigation
 	url = git@github.com:Pequi-Mecanico-Home/miss_navigation.git
-[submodule "realsense_gazebo_plugin"]
-	path = realsense_gazebo_plugin
-	url = git@github.com:Pequi-Mecanico-Home/realsense_gazebo_plugin.git
