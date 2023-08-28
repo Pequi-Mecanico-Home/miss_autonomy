@@ -13,3 +13,6 @@
 [submodule "realsense_gazebo_plugin"]
 	path = realsense_gazebo_plugin
 	url = git@github.com:Pequi-Mecanico-Home/realsense_gazebo_plugin.git
+[submodule "miss_worlds"]
+	path = miss_worlds
+	url = git@github.com:Pequi-Mecanico-Home/miss_worlds.git
