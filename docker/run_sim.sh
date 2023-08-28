@@ -25,7 +25,7 @@ docker run \
         --env QT_X11_NO_MITSHM=1 \
         --env LIBGL_ALWAYS_SOFTWARE=0 \
         --volume "/tmp/.X11-unix:/tmp/.X11-unix:rw" \
-        --volume "$MISS_AUTONOMY/..:/miss_ws/src" \
+        --volume "$MISS_AUTONOMY/..:/miss_ws/src:rw" \
         --cpu-shares 1024  \
         --memory 2g \
         miss_simulation:alpha 
