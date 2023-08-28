@@ -16,6 +16,7 @@ RUN apt-get install -y --no-install-recommends \
         ros-foxy-robot-state-publisher \
         ros-foxy-teleop-twist-keyboard \
         ros-foxy-robot-localization \
+        ros-foxy-nav2* \
         git \
         nano
 
