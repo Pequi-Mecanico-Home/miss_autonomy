@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source /opt/ros/foxy/setup.bash
+source /opt/ros/${ROS_DISTRO}/setup.bash
 
 colcon build --symlink-install
 
