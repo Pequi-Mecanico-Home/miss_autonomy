@@ -26,7 +26,7 @@ RUN mkdir -p /${MISS_WS}/src
 WORKDIR ${MISS_WS}
 RUN /bin/bash -c '. /opt/ros/${ROS_DISTRO}/setup.bash; colcon build --symlink-install' && \ 
     echo "source /opt/ros/${ROS_DISTRO}/setup.bash" >> /root/.bashrc && \ 
-    echo "source $ALBOT_WS/install/setup.bash" >> /root/.bashrc 
+    echo "source $MISS_WS/install/setup.bash" >> /root/.bashrc 
 
 COPY ./miss_entrypoint.sh /miss_entrypoint.sh
 
